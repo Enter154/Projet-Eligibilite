@@ -10,14 +10,16 @@
         
         <p>
             Cette page contient du code HTML avec des balises PHP.<br />
-            <?php /* Insérer du code PHP ici */ ?>
-            Voici quelques petits tests :
+            <?php 
+            echo "Texte via php"; 
+            ?>
         </p>
         
+        <h3>Sélection de café :</h3>
         <ul>
-        <li style="color: blue;">Texte en bleu</li>
-        <li style="color: red;">Texte en rouge</li>
-        <li style="color: green;">Texte en vert</li>
+        <li>Expresso</li>
+        <li>Allongé</li>
+        <li>Double Expresso</li>
         </ul>
         
         <?php
